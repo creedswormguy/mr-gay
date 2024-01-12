@@ -1,0 +1,35 @@
+body {
+    background-color: #75b8ff;
+}
+header {
+    .headline {
+        color: #003488;
+        font-size: 100px;
+        font-family: 'ranille', Arial, Helvetica, sans-serif;
+    }
+}
+
+.loop-holder {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.loop-holder__text {
+    animation: textLoop 10s linear infinite;
+    font-size: 4vw;
+    padding-right: 0.95em;
+    font-family: 'Montserrat', sans-serif;
+    color: #052251;
+}
+
+@keyframes textLoop {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
