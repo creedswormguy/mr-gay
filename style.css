@@ -16,7 +16,7 @@ header .headline {
 
 .loop-holder__text {
   animation: textLoop 10s linear infinite;
-  font-size: 4vw;
+  font-size: 5vw;
   padding-right: 0.95em;
   font-family: "Montserrat", sans-serif;
   color: #052251;
